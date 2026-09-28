@@ -23,6 +23,10 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Repository = "https://github.com/ameyw/proofgraph"
+Issues = "https://github.com/ameyw/proofgraph/issues"
+
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 

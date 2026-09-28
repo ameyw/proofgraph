@@ -16,7 +16,13 @@ source .venv/bin/activate
 python -m pip install -e '.[dev]'
 ```
 
-For runtime use without the test tools, use `python -m pip install .`. These are local installation instructions; this project has not been published to PyPI.
+For runtime use without the test tools, install the published package:
+
+```sh
+python -m pip install proofgraph
+```
+
+To install the current checkout for development, use `python -m pip install -e '.[dev]'`.
 
 ## A 20-second demo
 
